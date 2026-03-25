@@ -6,37 +6,29 @@ namespace Competition_2
 {
     public class Book
     {
-        public string Title { get; set; }
-        public string Author { get; set; }
-        public string ISBN { get; set; }
-        public int AvailableCopies { get; set; }
+           public string Title { get; set; }
+    public string Author { get; set; }
+    public string ISBN { get; set; }
+    public int AvailableCopies { get; set; }
 
-        public Book(string title, string author, string isbn, int availableCopies)
-        {
-            Title = title;
-            Author = author;
-            ISBN = isbn;
-            AvailableCopies = availableCopies;
-        }
+    public Book(string title, string author, string isbn, int copies)
+    {
+        Title = title;
+        Author = author;
+        ISBN = isbn;
+        AvailableCopies = copies;
+    }
 
-        public bool BorrowBook()
+    public void BorrowBook()
+    {
+        if (AvailableCopies > 0)
         {
-            if (AvailableCopies > 0)
-            {
-                AvailableCopies--;
-                return true;
-            }
-            return false;
+            AvailableCopies--;
         }
-
-        public void ReturnBook()
+        else
         {
-            AvailableCopies++;
+            Console.WriteLine($"'{Title}' is not available.");
         }
-
-        public override string ToString()
-        {
-            return $"Title: {Title}, Author: {Author}, Available Copies: {AvailableCopies}";
-        }
+    }
     }
 }
