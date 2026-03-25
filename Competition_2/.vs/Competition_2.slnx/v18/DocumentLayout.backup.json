@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hfras\\Desktop\\Classwork\\Spring 2026\\App Dev for Analytics\\Competition 2\\Competition_2\\",
+  "WorkspaceRootPath": "C:\\Users\\daysa\\OneDrive\\Desktop\\Comp 2\\ism6225-competition2\\Competition_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0ADC366C-83BC-45F1-8090-52D3A29BCB17}|Competition_2.csproj|c:\\users\\hfras\\desktop\\classwork\\spring 2026\\app dev for analytics\\competition 2\\competition_2\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADC366C-83BC-45F1-8090-52D3A29BCB17}|Competition_2.csproj|solutionrelative:library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADC366C-83BC-45F1-8090-52D3A29BCB17}|Competition_2.csproj|c:\\users\\daysa\\onedrive\\desktop\\comp 2\\ism6225-competition2\\competition_2\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADC366C-83BC-45F1-8090-52D3A29BCB17}|Competition_2.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Library.cs",
-              "DocumentMoniker": "C:\\Users\\hfras\\Desktop\\Classwork\\Spring 2026\\App Dev for Analytics\\Competition 2\\Competition_2\\Library.cs",
-              "RelativeDocumentMoniker": "Library.cs",
-              "ToolTip": "C:\\Users\\hfras\\Desktop\\Classwork\\Spring 2026\\App Dev for Analytics\\Competition 2\\Competition_2\\Library.cs",
-              "RelativeToolTip": "Library.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\daysa\\OneDrive\\Desktop\\Comp 2\\ism6225-competition2\\Competition_2\\Book.cs",
+              "RelativeDocumentMoniker": "Book.cs",
+              "ToolTip": "C:\\Users\\daysa\\OneDrive\\Desktop\\Comp 2\\ism6225-competition2\\Competition_2\\Book.cs",
+              "RelativeToolTip": "Book.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T15:34:53.889Z",
+              "WhenOpened": "2026-03-25T16:25:25.936Z",
               "EditorCaption": ""
             }
           ]
