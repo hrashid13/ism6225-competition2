@@ -6,53 +6,52 @@ namespace Competition_2
 {
     internal class Library
     {
-        private readonly List<Book> books = new();
-        private readonly List<Person> patrons = new();
+       public List<Book> Books { get; set; } = new List<Book>();
+    public List<Person> Patrons { get; set; } = new List<Person>();
 
-        public Library()
+    public void AddBook(Book book)
+    {
+        Books.Add(book);
+    }
+
+    public void AddPatron(Person person)
+    {
+        Patrons.Add(person);
+    }
+
+    public void DisplayBooks()
+    {
+        Console.WriteLine("Books in Library:");
+        foreach (var book in Books)
         {
+            Console.WriteLine($"Title: {book.Title}, Author: {book.Author}, Available Copies: {book.AvailableCopies}");
         }
+        Console.WriteLine();
+    }
 
-        public void AddBook(Book book)
+    public void DisplayPatrons()
+    {
+        Console.WriteLine("Patrons in Library:");
+        foreach (var p in Patrons)
         {
-            if (book == null) throw new ArgumentNullException(nameof(book));
-            books.Add(book);
+            Console.WriteLine($"Name: {p.Name}, ID: {p.ID}");
         }
+        Console.WriteLine();
+    }
 
-        public void AddPatron(Person patron)
+    public void BorrowBook(string title, string borrowerName)
+    {
+        var book = Books.Find(b => b.Title == title);
+
+        if (book != null && book.AvailableCopies > 0)
         {
-            if (patron == null) throw new ArgumentNullException(nameof(patron));
-            patrons.Add(patron);
+            book.BorrowBook();
+            Console.WriteLine($"{borrowerName} borrowed '{title}'");
         }
-
-        public void DisplayBooks()
+        else
         {
-            if (books.Count == 0)
-            {
-                Console.WriteLine("No books in the library.");
-                return;
-            }
-
-            Console.WriteLine("Books:");
-            foreach (var b in books)
-            {
-                Console.WriteLine(b?.ToString() ?? "<null>");
-            }
+            Console.WriteLine($"Book '{title}' not available.");
         }
-
-        public void DisplayPatrons()
-        {
-            if (patrons.Count == 0)
-            {
-                Console.WriteLine("No patrons in the library.");
-                return;
-            }
-
-            Console.WriteLine("Patrons:");
-            foreach (var p in patrons)
-            {
-                Console.WriteLine(p?.ToString() ?? "<null>");
-            }
-        }
+    }
     }
 }
