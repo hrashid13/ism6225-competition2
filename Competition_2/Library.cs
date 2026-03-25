@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Competition_2
 {
-    internal class Library
+    public class Library
     {
        public List<Book> Books { get; set; } = new List<Book>();
     public List<Person> Patrons { get; set; } = new List<Person>();
