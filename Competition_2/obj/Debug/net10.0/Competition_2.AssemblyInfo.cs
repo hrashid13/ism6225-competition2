@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Competition_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45efc6423b93b1341b8a1902f694f6bf46889f5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+503510ab1518ac77b2d947f55ef78e05bbede7e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Competition_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Competition_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
